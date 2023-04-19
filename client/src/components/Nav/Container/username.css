@@ -1,0 +1,5 @@
+
+.user-name::before {
+    display: inline;
+    content: "⚠";
+}

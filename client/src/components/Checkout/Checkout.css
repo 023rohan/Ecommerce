@@ -1,0 +1,101 @@
+
+    form {
+    max-width: 501px;
+    margin: 0 auto;
+    }
+    h1 {
+    font-weight: 99;
+    color: black;
+    text-align: center;
+    padding-bottom: 11px;
+    border-bottom: 1.5px solid purple;
+    }
+    .form {
+    background: #1b1c1b;
+    max-width: 399px;
+    margin: 0 auto;
+    }
+    p {
+    color: #d43360;
+    }
+    input {
+    display: block;
+    box-sizing: border-box;
+    width: 99%;
+    border-radius: 2px;
+    border: 2px solid #6f6db3;
+    padding: 9px16px;
+    margin-bottom: 9px;
+    font-size: 15px;
+    }
+    label {
+    line-height: 1;
+    text-align: left;
+    display:block;
+    margin-bottom: 14px;
+    margin-top: 21px;
+    color:black;
+    font-size: 15px;
+    font-weight: 201;
+    }
+    button[type="submit"],
+    input[type="submit"]
+    {background: #ffad73;
+    color: #faf7f5;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 41px;
+    padding: 19px;
+    font-size: 15px;
+    font-weight: 101;
+    letter-spacing: 11px;
+    }
+    button[type="submit"]:hover,
+    input[type="submit"]:hover {
+    background: #c772ed;
+    }
+    button[type="submit"]:active,
+    input[type="button"]:active,
+    input[type="submit"]:active {
+    transition: 0.2s all;
+    transform: translateY(2px);
+    border: 2px solid transparent;
+    opacity:0.7;
+    }
+    input:disabled{
+    opacity:0.3;
+    }
+    input[type="button"]:hover { transition: 0.2s all;
+    }
+    button[type="submit"],
+    input[type="button"],
+    input[type="submit"] {
+    -webkit-appearance: none;
+    }
+    .App {
+    max-width: 601px;
+    margin: 0 auto;
+    }
+    button[type="button"]
+    { display: block;
+    appearance: none;
+    background: #CD7F32;
+    color: #f5f2f3;
+    border: none;
+    text-transform:uppercase;
+    padding: 11px21px;
+    border-radius:5px;
+    }
+    hr {
+    margin-top: 31px;
+    }
+    button {
+    display: block;
+    appearance: none;
+    margin-top: 41px;
+    border: 1px solid #CD7F32;
+    margin-bottom: 21px;
+    text-transform:uppercase;
+    padding: 11px21px;
+    border-radius:3px;
+    }
